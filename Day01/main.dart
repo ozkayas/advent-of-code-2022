@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main() {
-  List<String> lines = File("calories.txt").readAsLinesSync();
+  List<String> lines = File("Day01/calories.txt").readAsLinesSync();
 
   List<int> clusteredCalories(List<String> lines) {
     int temp = 0;
